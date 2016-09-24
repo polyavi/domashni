@@ -1,0 +1,30 @@
+/[a-z]/ - malki bukwi
+/[A-Z]/ - golemi bukwi
+/./ - vseki simvol
+/./g - vsi4ki simvoli
+/ /i - ignore case sensitivity
+/[.]/ - simvol .
+/[^e]/ - wsi4ko be tozi simvol
+/^./ - na4alo na reda v koito tyrsim
+/.$/ - kraq na reda
+/...$/ - poslednite 3 simvola na reda
+/[neshto si]{5,}/ - 5 i pove4e
+/[neshto si]{5,7}/- ot 5 do 7 simvola
+/[neshto si]{,5}/ - nai-mnogo 5 simvola
+[neshto si]* - 0 ili pove4e, t.e moze da go nqma
+[neshto si]+ - 1 ili powe4e, t.e pone vednyv da go ima
+/.+/g -wsi4ko koeto ne e prazno
+/ab*?/g - b move id a go nqma
+* i + se opitvat da ma4nat nai-mnogo simvoli
+*? i +? se opitwat da ma4nat nai-malko
+/(23|aa)/- ednoto ili drugoto
+m - multy-line search
+y - 'stiky' search
+\s - prazno mqsto
+\w - lat bukvi i cifri
+\S - ne e prazno mqsto
+\d - gifra
+\D - ne e cifra
+\W - ne e lat bukva ili cifra
+
+predstavqme si ne6tata kato otdelni neshta v pametta i posle gi izvejdame kakto iskame

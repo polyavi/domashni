@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <body>
+  	<header>
+      <img src="images/calculator.png" />
+  		<h1>Calculator</h1>
+          <div class="buttons">
+              <div id="minimize"></div>
+              <div id="restore"></div>
+              <div id="quit"></div>
+      </div>
+  	</header>
+    <div  class="background">
+  	<section class="sameBorder">
+  	<nav>
+  		<div class="nav_text">View</div>
+  		<div class="nav_text">Edit</div>
+  		<div class="nav_text">Help</div>
+  	</nav>
+  	<input class="sameBorder, boxShadow" type="text" value="885445">
+  	<table id="valueBox" class="sameBorder">
+          <tr>
+              <td>0000</td>
+              <td>0000</td>
+              <td>0000</td>
+              <td>0000</td>
+              <td>0000</td>
+              <td>0000</td>
+              <td>0000</td>
+              <td>0000</td>
+          </tr>
+          <tr>
+            <td class="grayText"colspan="4">63</td>
+            <td class="grayText" colspan="3">47</td>
+            <td class="grayText">&nbsp;&nbsp;32</td>
+          </tr>
+          <tr>
+              <td>0000</td>
+              <td>1000</td>
+              <td>0000</td>
+              <td>1000</td>
+              <td>0111</td>
+              <td>0001</td>
+              <td>0011</td>
+              <td>0111</td>
+          </tr>
+
+          <tr>
+            <td class="grayText"colspan="4">31</td>
+            <td class="grayText" colspan="3">15</td>
+            <td class="grayText">&nbsp;&nbsp;&nbsp;0</td>
+          </tr>
+    </table>
+      <fieldset id="numericSystem" class="sameBorder, boxShadow">
+          <input type="radio" name="num" value="Hex"> Hex<br>
+          <input type="radio" name="num" value="Dec" checked="checked"> Dec<br>
+          <input type="radio" name="num" value="Oct"> Oct<br>
+          <input type="radio" name="num" value="Bin"> Bin
+      </fieldset>
+      <fieldset id="otherRadio" class="sameBorder, boxShadow">
+          <input type="radio" name="other" value="Qword"  checked="checked"> Qword<br>
+          <input type="radio" name="other" value="Dword"> Dword<br>
+          <input type="radio" name="other" value="Word"> Word<br>
+          <input type="radio" name="other" value="Byte"> Byte
+      </fieldset>
+      <table class="numbers" cellspacing="5">
+      <tr>
+          <td></td>
+          <td class="darkbtn">Mod</td>
+          <td class="grayBorder">A</td>
+          <td class="gwBorder">MC</td>
+          <td class="gwBorder">MR</td>
+          <td class="gwBorder">MS</td>
+          <td class="gwBorder">M+</td>
+          <td class="gwBorder">M-</td>
+    </tr>
+    <tr>
+          <td class="darkbtn">(</td>
+          <td class="darkbtn">)</td>
+          <td class="grayBorder">B</td>
+          <td class="darkbtn">&larr;</td>
+          <td class="darkbtn">CE</td>
+          <td class="darkbtn">C</td>
+          <td class="darkbtn">&plusmn;</td>
+          <td class="grayBorder">&radic;</td>
+    </tr>
+    <tr>
+          <td class="darkbtn">RoL</td>
+          <td class="darkbtn">RoR</td>
+          <td class="grayBorder">C</td>
+          <td class="lightbtn">7</td>
+          <td class="lightbtn">8</td>
+          <td class="lightbtn">9</td>
+          <td class="darkbtn">/</td>
+          <td class="grayBorder">%</td>
+    </tr>
+    <tr>
+          <td class="darkbtn">Or</td>
+          <td class="darkbtn">Xor</td>
+          <td class="grayBorder">D</td>
+          <td class="lightbtn">4</td>
+          <td class="lightbtn">5</td>
+          <td class="lightbtn">6</td>
+          <td class="darkbtn">*</td>
+          <td class="grayBorder">1/x</td>
+    </tr>
+    <tr>
+          <td class="darkbtn">Lsh</td>
+          <td class="darkbtn">Rsh</td>
+          <td class="grayBorder">E</td>
+          <td class="lightbtn">1</td>
+          <td class="lightbtn">2</td>
+          <td class="lightbtn">3</td>
+          <td class="darkbtn">-</td>
+          <td rowspan="2" class="darkbtn">=</td>
+    </tr>
+    <tr>
+          <td class="darkbtn">Not</td>
+          <td class="darkbtn">And</td>
+          <td class="grayBorder">F</td>
+          <td colspan="2" class="lightbtn">0</td>
+          <td class="grayBorder">.</td>
+          <td class="darkbtn">+</td>
+    </tr>
+  </table>
+</section>
+</div>
+  </body>
+  </head>
+  </html>
